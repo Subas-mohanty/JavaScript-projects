@@ -23,16 +23,17 @@ body {
 }
 .search{
   display: flex;
+  justify-content: center;
   width: 50%;
 }
 .search input{
   padding: 0.5rem 1rem;
-  width: 100%;
+  width: 70%;
 }
 .search input:focus-visible{
   outline: 1px solid purple;
 }
-.search #search-btn{
+.button{
   background-color: purple;
   color: white;
   padding: 0.5rem 1rem;
@@ -40,7 +41,53 @@ body {
   margin-left: 10px;
   border-radius: 5px;
 }
-.search #search-btn:hover{
+.button:hover{
   background-color: rgb(63, 2, 63);
-  
+}
+
+/* for card */
+
+.profile-box{
+  width: 34vw;
+  padding: 4rem 2rem;
+  box-shadow: 0 0 1rem rgba(0, 0, 0, 0.1);
+  transition: 0.2s ease-in;
+}
+.profile-box:hover{
+  transform: rotate(-2deg) scale(1.02);
+  transition: 0.2s ease-in;
+}
+.top-section{
+  display: flex;
+  justify-content: space-between;
+}
+.top-section button{
+  align-self: center;
+}
+.left{
+  display: flex;
+  gap: 1rem;
+}
+.left h1{
+  font-size: 2.5rem;
+}
+.left h3{
+  font-size: 1.5rem;
+}
+.avatar{
+  height: 10rem;
+  width: 10rem;
+}
+.avatar img{
+  height: 100%;
+  width: 100%;
+  border-radius: 50%;
+}
+.about{
+  padding: 5px 8px;
+}
+.status{
+  padding: 5px 8px;
+  display: flex;
+  justify-content: space-between;
 }
