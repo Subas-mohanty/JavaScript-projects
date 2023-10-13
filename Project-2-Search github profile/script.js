@@ -19,8 +19,8 @@ const generateProfile = (profile) => {
                     </div>
 
                 </div>
-                <a href='${profile.html_url}'>
-                    <button class="primary-btn button">Check profile</button>
+                <a href="${profile.html_url}" target="_blank">
+                    <button class="primary-btn button" >Check profile</button>
                 </a>
             </div>
             <div class="about">

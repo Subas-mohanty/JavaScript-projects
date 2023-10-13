@@ -48,14 +48,14 @@ body {
 /* for card */
 
 .profile-box{
-  width: 34vw;
+  min-width: 30vw;
   padding: 4rem 2rem;
   box-shadow: 0 0 1rem rgba(0, 0, 0, 0.1);
-  transition: 0.2s ease-in;
+  transition: 0.2s ease-in-out;
 }
 .profile-box:hover{
-  transform: rotate(-2deg) scale(1.02);
-  transition: 0.2s ease-in;
+  transform:scale(1.02);
+  transition: 0.2s ease-in-out;
 }
 .top-section{
   display: flex;
@@ -91,3 +91,16 @@ body {
   display: flex;
   justify-content: space-between;
 }
+@media (max-width: 420px) {
+  .profile-box{
+    margin: 15px;
+  }
+  .container h1{
+    margin: 5px;
+  }
+}
+/* @media (max-width: 900px) {
+  .profile-box{
+    margin: 10px;
+  }
+} */
