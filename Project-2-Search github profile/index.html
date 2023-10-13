@@ -12,43 +12,13 @@
     <div class="container">
         <h1>Search github profile</h1>
         <div class="search">
-            <input id="input" type="text" placeholder="Enter github username">
-            <button class="button" id="search-btn">Search</button>
+            <input id="searchInput" type="text" placeholder="Enter github username">
+            <button class="button" id="searchBtn">Search</button>
         </div>
-        <div class="profile-box">
-            <div class="top-section">
-                <div class="left">
-                    <div class="avatar">
-                        <img src="https://avatars.githubusercontent.com/u/127796726?v=4" alt="avatar">
-                    </div>
-                    <div class="self">
-                        <h1>subas mohanty</h1>
-                        <h3>subas-mohanty</h3>
-                    </div>
-
-                </div>
-                <button class="primary-btn button">Check profile</button>
-            </div>
-            <div class="about">
-                <h2>About</h2>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing.</p>
-            </div>
-            <div class="status">
-                <div class="status-item">
-                    <h3>Followers</h3>
-                    <p>4494</p>
-                </div>
-                <div class="status-item">
-                    <h3>Following</h3>
-                    <p>4494</p>
-                </div>
-                <div class="status-item">
-                    <h3>Repository</h3>
-                    <p>4494</p>
-                </div>
-            </div>
-        </div>
+        <div id="profileContainer"></div>
+        <div id="loading"></div>
     </div>
+    <script src="./script.js"></script>
 </body>
 
 </html>
