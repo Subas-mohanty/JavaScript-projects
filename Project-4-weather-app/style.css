@@ -10,7 +10,7 @@ html {
   font-size: 62.5%;
 }
 .container {
-  margin: 20rem auto;
+  margin: 18rem auto 0;
   height: 40rem;
   width: 32rem;
   background: linear-gradient(#85d6e9, #d1eeab);
@@ -23,7 +23,7 @@ html {
 }
 .header input {
   background-color: white;
-  text-align: center;
+  padding-left: 1rem;
   font-size: 1.5rem;
   height: 3rem;
   width: 15rem;

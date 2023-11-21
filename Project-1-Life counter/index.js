@@ -33,6 +33,7 @@ const toggle = ()=>{
 const updateAge=()=>{
     const currentDate=new Date();
     const dateDiff=currentDate-dateOfBirth;
+    console.log(dateOfBirth);
     const year = Math.floor(dateDiff / (1000 * 60 * 60 * 24 * 365));
     const month = Math.floor((dateDiff / (1000 * 60 * 60 * 24 * 365)) % 12);
     const day = Math.floor(dateDiff / (1000 * 60 * 60 * 24)) % 30;
