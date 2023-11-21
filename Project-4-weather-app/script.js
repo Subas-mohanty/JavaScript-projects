@@ -2,7 +2,7 @@ let cityName=document.getElementById("city");
 const btnElement=document.querySelector("button");
 
 async function getWeather (cityName){
-    const apiKey=`http://api.weatherapi.com/v1/current.json?key=191bf9d0b46543dc9da173843232808&q=${cityName}&aqi=yes`;
+    const apiKey=`https://api.weatherapi.com/v1/current.json?key=191bf9d0b46543dc9da173843232808&q=${cityName}&aqi=yes`;
     const api= await fetch(apiKey);
     const data= await api.json();
 
